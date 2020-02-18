@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Font Awesome - icons -->
+    <script src="https://kit.fontawesome.com/2e296f9362.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Resume - Natalia Bujnowicz</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <h1>Natalia Bujnowicz </h1>
+            <h2>Front End Developer</h2>
+        </div>
+        <div id="aside">
+
+            <div class="img-box">
+                <img src="img/img.jpg" alt="photo">
+            </div>
+
+            <h3>About Me</h3>
+            <hr>
+            <p>My name is Natalia. I'm a Junior Front-End Developer fascinated by developing apps and building websites.
+                I'm constantly growing my skills in web tech area.</p>
+
+            <h3>Contact</h3>
+            <hr>
+            <i class="aside-contact-i fas fa-map-marker-alt"> <span>Cnoc An Dara, Foxford, Co. Mayo</span></i><br />
+            <i class="aside-contact-i  fas fa-mobile-alt"> <span><a
+                        href="tel:+353892479676">+353-89-247-96-76</a></span></i>
+            <br />
+            <i class="aside-contact-i  fas fa-at"> <span class="span-email"><a
+                        href="mailto:nataliabujnowicz1987@gmail.com">nataliabujnowicz1987@gmail.com</a></span></i>
+            <br />
+
+            <h3>Skills</h3>
+            <hr>
+            <div class="skills-icons">
+                <i class="aside-skills-i fab fa-html5" title="HTML5"></i>
+                <i class="aside-skills-i fab fa-css3-alt" title="CSS3"></i>
+                <i class="aside-skills-i fab fa-js-square" title="JavaScript"></i>
+                <i class="aside-skills-i fab fa-wordpress" title="Wordpress"></i>
+
+
+                <img class="skills-img skills-img-bigger" src="img/jquery.png" alt="jquery" title="jQuery">
+                <img class="skills-img skills-img-bigger" src="img/mysql.png" alt="mysql" title="MySQL">
+                <i class="aside-skills-i fab fa-node" title="Node.js"></i>
+                <img class="skills-img skills-img-bigger" src="img/ux.png" alt="UX/UI"
+                    title="User Experience & User Interface">
+
+
+                <img class="skills-img skills-img-bottom" src="img/vsc.png" alt="Visual Studio Code"
+                    title="Visual Studio Code">
+                <img class="skills-img skills-img-bottom" src="img/gimp.png" alt="gimp" title="GIMP">
+                <img class="skills-img skills-img-bottom" src="img/ps.png" alt="Adobe Photoshop"
+                    title="Adobe Photoshop">
+                <img class="skills-img skills-img-bottom" src="img/dw.png" alt="Adobe Dreamweaver"
+                    title="Adobe Dreamweaver">
+            </div>
+            <br />
+
+            <h3>Hobbies</h3>
+            <hr>
+            <i class="aside-hobbies-i fas fa-headphones"></i>
+            <i class="aside-hobbies-i fas fa-biking"></i>
+            <i class="aside-hobbies-i fas fa-code"></i>
+            <br />
+
+            <h3>Follow me</h3>
+            <hr>
+            <a href="https://github.com/NataliaBujnowicz1987/" target="blank">
+                <i class="aside-follow-i fab fa-github" title="https://github.com/NataliaBujnowicz1987/"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/nataliabujnowicz/" target="blank">
+                <i class="aside-follow-i fab fa-linkedin-in" title="https://www.linkedin.com/in/nataliabujnowicz/"></i>
+            </a>
+
+            <h3>Reference</h3>
+            <hr>
+            <p>MARCIN ROMEL | DarkBlue Design, Ballina</p>
+            <p><b>Phone:</b> <a href="tel:+3539670905"> +353-096-70905 </a><br />
+                <b>Mobile:</b> <a href="tel:+3530860707170"> +353-086-0707170 </a> <br />
+                <b>E-mail:</b> <a href="mailto:web@darkblue.ie"> web@darkblue.ie</a></p>
+
+        </div>
+
+        <div id="content">
+            <h2><i class="fas fa-rocket"></i> Career Objective</h2>
+            <hr>
+            <p>Creative and self-motivated individual with proficiency in HTML5, JS(ES6) and CSS3.
+                Passionate about creating dynamic websites and web applications, looking for opportunity to use
+                the acquired knowledge of developing, design and testing in practice as a web developer.</p>
+
+            <div class="popUp">
+                <div class="popUp-content">
+                    <span class="close-button"><i class="fas fa-times"></i></span>
+                    <div id="change"></div>
+                </div>
+            </div>
+
+            <h2> <i class="fas fa-user-graduate"></i> Education</h2>
+            <hr>
+
+            <h4><i class="fas fa-angle-right"></i> National College of
+                Ireland | 2018-2019</h4>
+            <h5 class="trigger" onclick="readMore()" title="Click here to read more">Higher Diploma in Science in Web
+                Technologies (NFQ
+                Level: 8)</h5>
+
+            <h4><i class="fas fa-angle-right"></i> Gdansk University, Gdansk Poland | 2009-2011</h4>
+            <h5 class="trigger1" onclick="readMore1()" title="Click here to read more">Master of Arts of Political
+                Science
+                (NFQ Level: 9)</h5>
+
+            <h4><i class="fas fa-angle-right"></i> PWSZ Univeristy, Pila Poland | 2006-2009</h4>
+            <h5 class="trigger2" onclick="readMore2()" title="Click here to read more">Bachelor’s Degree of Political
+                Science (NFQ Level: 8)</h5>
+
+
+            <h2><i class="fas fa-certificate"></i> Certifications</h2>
+            <hr>
+            <h4><i class="fas fa-angle-right"></i> ISTQB Certified Tester Foundation Level | 01/2020 <span
+                    class="cert trigger7" onclick="readMore7()" title="Click here to read more"> - Certificate</span>
+            </h4>
+
+            <h4><i class="fas fa-angle-right"></i> Web Authoring using Adobe Dreamweaver CC | 07/2018 <span
+                    class="cert trigger8" onclick="readMore8()" title="Click here to read more"> -
+                    Certificate</span>
+            </h4>
+
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <hr>
+            <h4><i class="fas fa-angle-right"></i> Darkblue Design (Ballina, Co. Mayo) | 2019</h4>
+            <h5 class="trigger3" onclick="readMore3()" title="Click here to read more">Web Developer (work placement)
+            </h5>
+
+            <h4><i class="fas fa-angle-right"></i> Work and Travel (Denmark/Malta) | 2013-2015</h4>
+            <h5 class="trigger4" onclick="readMore4()" title="Click here to read more">Office Assistant</h5>
+
+            <h4><i class="fas fa-angle-right"></i> DIVEZONE.PL (Poland) | 2012-2013</h4>
+            <h5 class="trigger5" onclick="readMore5()" title="Click here to read more">Online Dive Store Administrator /
+                Customer Assistant</h5>
+
+            <h4><i class="fas fa-angle-right"></i> TAKKO FASHION (Poland) | 2009-2012</h4>
+            <h5 class="trigger6" onclick="readMore6()" title="Click here to read more">Customer Assistant / Deputy
+                Manager</h5>
+
+        </div>
+    </div>
+
+    <script>
+        function readMore() {
+            document.getElementById("change").innerHTML =
+                '<h3>National College of Ireland</h3><hr> <h3>Higher Diploma in Science in Web Technologies</h3> <ul><li>NFQ Level: 8</li><li>First Class Honours Degree</li><br><b>Modules:</b><li>Object Oriented Software Engineering</li> <li>Introduction to Databases (MySQL)</li> <li>Web Design (HTML, CSS, JavaScript)</li> <li>Server Side Web Technologies (Ruby on Rails)</li> <li>Digital Multimedia</li> <li>Computer Architecture, Operating Systems and Networks</li> <li>Web Application Development (JavaScript, jQuery, Node.js, XML, JSON)</li></ul>';
+        }
+
+        function readMore1() {
+            document.getElementById("change").innerHTML =
+                '<h3>Gdansk University, Poland</h3> <hr> <h3>Master of Arts of Political Science</h3><ul><li>NFQ Level: 9</li><li>First Class Honours Degree</li><li>Faculty: Political Sciences</li> <li>Major: Political Systems and Local Governments</li></ul>';
+        }
+
+        function readMore2() {
+            document.getElementById("change").innerHTML =
+                '<h3>PWSZ Univeristy, Pila Poland</h3> <hr> <h3>Bachelor’s Degree of Political Science</h3> <ul><li>NFQ Level: 8</li><li>First Class Honours Degree</li><li>Faculty: Political Sciences</li> <li>Major: Security Policy and Crisis Management</li> <li>Work placement: Orzysz City\'s Crisis Management Center</li></ul>';
+        }
+
+        function readMore3() {
+            document.getElementById("change").innerHTML =
+                '<h3>Darkblue Design, Ballina, Co. Mayo</h3> <hr> <h3>Web Developer</h3> <ul><li>A work placement, which was a fantastic opportunity to gain first hand commercial experience.</li><br><li>Responsible for web design (based on UI/UX design principles) and web development (WordPress).</li><br><li> Creating wireframes and mockups according to client requirements (Adobe Photoshop).</li><br><li> I was involved in projects for: Portwest, Mayo Volunteer Centre, Croagh Patrick, Rosarii Mannion, Umoja Production, Atlantic Vehicle Hire, JIA Design Group and Midwest Fire & Security.</li></ul>';
+        }
+
+        function readMore4() {
+            document.getElementById("change").innerHTML =
+                '<h3>Work and Travel in Denmark and Malta</h3> <hr> <h3>Office Assistant </h3> <ul><li>In 2013 I worked for danish cruise line DFDS (Copenhagen-Oslo).</li><br><li>During stay in Malta I worked for igaming company where I was responsible for assisting in the correct functioning of the office as well as preparing conferences and meetings. During this employment I had a chance to see everyday activities of web developers` team and could experience the specifics of web technology work environment (Europe Entertainment Limited, Malta).</li></ul>';
+        }
+
+        function readMore5() {
+            document.getElementById("change").innerHTML =
+                '<h3>DIVEZONE.PL, Dive Shop (Poland)</h3> <hr> <h3>Online Dive Store Administrator / Customer Assistant</h3> <ul><li>When starting this employment I knew very little about diving yet after three months I had gained high proficiency in all aspects of diving equipment so that I could effectively advise broad range of customers.</li><br><li> I was responsible for preparing new offers on website (adding information about new products along with photo processing, lifting around 3,000 existing product descriptions with photos).</li><br><li>Customer service and preparing orders</li><br><li>Maintaining contacts with wholesalers and stock control</li></ul>';
+        }
+
+        function readMore6() {
+            document.getElementById("change").innerHTML =
+                '<h3>TAKKO FASHION, Clothing Store (Poland)</h3> <hr> <h3>Deputy Manager / Customer Assistant</h3> <ul><li>I started as a part time customer assistant during third year at the University. My professionalism and dedication were soon recognized and I was offered a deputy manager position in one of the high end stores in Gdansk City.</li><br><li>As a deputy manager I was responsible for maintaining contact with the HR department and the sales department. I was actively participating in regular meetings with Head Office where sales were analysed.</li><br><li>Customer service and stock control, maintaining great relationship with returning and new customers.</li></ul>';
+        }
+
+
+        function readMore7() {
+            document.getElementById("change").innerHTML =
+                '<h3> ISTQB Certified Tester Foundation Level</h3> <hr><div class="img-cert"><img src="img/istqb.jpg" alt="ISTQB Certified Tester Foundation Level"></div>';
+        }
+
+        function readMore8() {
+            document.getElementById("change").innerHTML =
+                '<h3>Web Authoring using Adobe Dreamweaver CC 2015</h3> <hr><div class="img-cert"><img src="img/adobe-dw.jpg" alt="Web Authoring using Adobe Dreamweaver CC 2015"></div>';
+        }
+
+
+        const popUp = document.querySelector(".popUp");
+        const trigger = document.querySelector(".trigger");
+        const trigger1 = document.querySelector(".trigger1");
+        const trigger2 = document.querySelector(".trigger2");
+        const trigger3 = document.querySelector(".trigger3");
+        const trigger4 = document.querySelector(".trigger4");
+        const trigger5 = document.querySelector(".trigger5");
+        const trigger6 = document.querySelector(".trigger6");
+
+        const trigger7 = document.querySelector(".trigger7");
+        const trigger8 = document.querySelector(".trigger8");
+
+        const closeButton = document.querySelector(".close-button");
+
+        function togglePopUp() {
+            popUp.classList.toggle("show-popUp");
+        }
+
+        function windowOnClick(event) {
+            if (event.target === popUp) {
+                togglePopUp();
+            }
+        }
+
+        trigger.addEventListener("click", togglePopUp);
+        trigger1.addEventListener("click", togglePopUp);
+        trigger2.addEventListener("click", togglePopUp);
+        trigger3.addEventListener("click", togglePopUp);
+        trigger4.addEventListener("click", togglePopUp);
+        trigger5.addEventListener("click", togglePopUp);
+        trigger6.addEventListener("click", togglePopUp);
+        trigger7.addEventListener("click", togglePopUp);
+        trigger8.addEventListener("click", togglePopUp);
+
+        // trigger.forEach(function (item) {s
+        //     item.addEventListener("click", togglePopUp);
+        // });
+
+        // for (let i = 0; i < trigger.length; i++) {
+        //     trigger[i].addEventListener("click", togglePopUp);
+        // }
+
+        closeButton.addEventListener("click", togglePopUp);
+        window.addEventListener("click", windowOnClick);
+    </script>
+
+</body>
+
+</html>
